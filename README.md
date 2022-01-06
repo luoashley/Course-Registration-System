@@ -4,7 +4,6 @@ The copy of my original Course Registration System code in CSCI-UA 102 Data Stru
 Topics covered: Classes, Objects, Inheritance, Polymorphism, Interfaces, Abstract Classes, Method Overriding, File I/O, ArrayLists, Serialization and more on Object- Oriented Paradigm
 
 Learning Objectives: 
-
 -Learning how to design and engineer a software solution using the Object-Oriented Programming Paradigm (OOP) 
 
 -Practicing Abstraction, Encapsulation, Inheritance, Method Overriding, Method Overloading and Polymorphism.
