@@ -31,8 +31,8 @@ In this project, I applied **Requirements Gathering and Analysis** methodology. 
 The following **Blueprints** are implemented:
 
 * [x] Req 01: The school shall store the following information about each course: Course name, course id, maximum number of students registered in the course, current number of registered students, a list of names of students being registered in the given course, course instructor, course section number, course location.
-* [x] Req 02: The system shall allow two types of users: Admin and Student
-* [x] Req 03: The system shall allow the Admin to perform the following tasks: (these are the options that will be in their menu that will be displayed your program when the administrator logs in)
+* [x] Req 02: The system shall allow two types of users: **Admin** and **Student**
+* [x] Req 03: The system shall allow **the Admin** to perform the following tasks: (these are the options that will be in their menu that will be displayed your program when the administrator logs in)
 
         Courses Management
         1.Create a new course
@@ -52,7 +52,7 @@ The following **Blueprints** are implemented:
         6.Sort courses based on the current number of student registers 
         7.Exit
 
-* [x] Req 04: The system shall allow the student to perform the following tasks:
+* [x] Req 04: The system shall allow **the student** to perform the following tasks:
         
         Course Management
         1. View all courses
@@ -65,12 +65,12 @@ The following **Blueprints** are implemented:
 The following **Featuring Designs** are implemented:
 * [x] Req 05: Define an Interface for admin class that will have the methods’ signatures that will be used by the Admin
 * [x] Req 06: Define an Interface for a student class that will have the methods’ signatures that will be used by the student.
-* [x] Req 07: Both classes Admin and Student inherit from a class named User. A user should have at least the following class members: username, password, first name, and last name (You will need to decide on the methods a User’s class that could be inherited or overridden by the student and the admin class)
-* [x] Req 08: At the beginning of launching the program, you will need to read all the courses information from the comma delimited file MyUniversityCourses.csv into an ArrayList of Course Objects. Notice that initially the number of students registered is zero The student list is null (there are not students registered in the class at the beginning)
-* [x] Req 09: For simplicity assume that there is one Admin in the program. The username and password for the admin are: Admin and Admin001
+* [x] Req 07: Both classes **Admin** and **Student** inherit from a class named **User**. A user should have at least the following class members: username, password, first name, and last name (You will need to decide on the methods a User’s class that could be inherited or overridden by the student and the admin class)
+* [x] Req 08: At the beginning of launching the program, you will need to read all the courses information from the comma delimited file **MyUniversityCourses.csv** into an **ArrayList of Course Objects**. Notice that initially the number of students registered is zero The student list is null (there are not students registered in the class at the beginning)
+* [x] Req 09: For simplicity assume that there is one Admin in the program. The username and password for the admin are: **Admin** and **Admin001**
 * [x] Req 10: At the start of the program, the user is asked to check if they are a student or an admin then if the user is admin, she/he will be asked to enter the username and password. Same applies for student.
 * [x] Req 11: a student class should have a username, password, first name and last name at least. You will need to decide on how to keep track on student’s courses if needed. You might need to decide on how to store a list of students.
-* [x] Req 12: Serialization
+* [x] Req 12: **Serialization**
 
 The following **Optional Requirements** are implemented:
 * [x] UML diagrams
