@@ -7,12 +7,16 @@ Submitted by: **Ashley Luo**
 
 Time spent: **24** hours spent in total
 
+
+
 ## User Stories
 The following **Topics** are covered:
+
 Classes, Objects, Inheritance, Polymorphism, Interfaces, Abstract Classes, Method Overriding, File I/O, ArrayLists, Serialization and more on Object-Oriented Paradigm
 
+
 The following **Learning Objectives** are covered:
-Learning Objectives: 
+
 -Practicing design and engineer a software solution using the Object-Oriented Programming Paradigm (OOP) 
 
 -Practicing Abstraction, Encapsulation, Inheritance, Method Overriding, Method Overloading and Polymorphism.
@@ -25,11 +29,26 @@ Learning Objectives:
 
 -Practicing Serialization and Binary Files in Java
 
-The following **Requirements Gathering and Analysis** are achieved and implemented:
+In this project, I applied **Requirements Gathering and Analysis** methodology. The overall project would be structured into several small parts. 
+
+The following **Blueprints** are implemented:
 
 * [x] Req 01: The school shall store the following information about each course: Course name, course id, maximum number of students registered in the course, current number of registered students, a list of names of students being registered in the given course, course instructor, course section number, course location.
 * [x] Req 02: The system shall allow two types of users: Admin and Student
 * [x] Req 03: The system shall allow the Admin to perform the following tasks: (these are the options that will be in their menu that will be displayed your program when the administrator logs in)
+    Courses Management
+
+        1.Create a new course
+
+        2.Delete a course
+
+        3.Edit a course (this will allow the admin to edit any information on the course except for course ID and name)
+
+        4.Display information for a given course (by course ID)
+
+        5.Register a student (this option will allow the admin to add a student without assigning to a course check Req 11 for student’s information – Hint: You might need to have an ArrayList of Students where you store Student objects)
+
+        6.Exit
 
 
 
